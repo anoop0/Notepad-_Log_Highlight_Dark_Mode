@@ -1,0 +1,28 @@
+<NotepadPlus>
+    <UserLang name="LogFile" ext="log">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="no" commentLine="no" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">[(0])0</Keywords>
+            <Keywords name="Folder+"></Keywords>
+            <Keywords name="Folder-"></Keywords>
+            <Keywords name="Operators"></Keywords>
+            <Keywords name="Comment">1 2 0</Keywords>
+            <Keywords name="Words1">ERROR</Keywords>
+            <Keywords name="Words2">WARN WARNING</Keywords>
+            <Keywords name="Words3">DEBUG</Keywords>
+            <Keywords name="Words4">INFO</Keywords>
+        </KeywordLists>
+        <Styles>
+             <WordsStyle name="DEFAULT" styleID="11" fgColor="C0C0C0" bgColor="000000" fontName="Source Code Pro" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="71B8FF" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING DOUBLE QUOTE" styleID="6" fgColor="E3C479" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING SINGLE QUOTE" styleID="7" fgColor="808080" bgColor="1E1E1E" fontName="" fontStyle="0" fontSize="">import</WordsStyle>
+            <WordsStyle name="BOOLEAN NULL" styleID="5" fgColor="569CD6" bgColor="1E1E1E" fontName="" fontStyle="1" fontSize="" keywordClass="instre1">import</WordsStyle>
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="CA6500" bgColor="000000" fontName="" fontStyle="1" fontSize="" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
